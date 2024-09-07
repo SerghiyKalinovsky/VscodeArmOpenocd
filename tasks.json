@@ -1,0 +1,17 @@
+{
+     "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build all",
+            "group":"build",
+            "type": "shell",
+            "command": "mingw32-make -j12"
+        },
+        {
+            "label": "Flash",
+            "group":"build",
+            "type": "shell",
+            "command": "mingw32-make flash "
+        }
+    ]
+}
